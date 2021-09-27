@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <link rel="stylesheet" media='screen and (min-width: 790px) and (max-width: 2000px)' href="style.css">
-  <link rel="stylesheet" media='screen and (min-width: 200px) and (max-width: 789px)' href="mobile.css">
-  <link rel="stylesheet"  href="https://fonts.google.com/specimen/Lexend+Deca">
+  <link rel="stylesheet" media='screen and (min-width: 200px) and (max-width: 700px)' href="mobile.css">
+  <link rel="stylesheet" media='screen and (min-width: 701px) and (max-width: 2000px)' href="style.css">
+  
+  
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Lexend+Deca">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -19,52 +20,37 @@
   </style>
 </head>
 <body>
-  <div class="parent">
+<div class="main">
 
-    <div class="main">
+<div class="picture">
+  <img src="images/image-header-desktop.jpg" alt="">
+</div>
 
-      <div class="submain">
-        
-       <div class="tint">
-       <img src="images/image-header-desktop.jpg" alt="Image">
-       </div>
+<div class="para">
 
-       <div class="words"> 
-         
-  <h1>Get <span style="color: hsl(277, 64%, 61%);">insights</span> that help your business grow.</h1>
+  <div class="heading">
+    Get <x style="color: hsl(277, 64%, 61%);">insights</x> that help your business grow.
+  </div>
 
-  <p>
+<div class="paragraph">
   Discover the benefits of data analytics and make better decisions regarding revenue, customer 
   experience, and overall efficiency.
-  </p>
+</div>
 
-  <div class="numbers">
-
-  <div class="a">  
-  <span class="white"> 10k+ </span> <br>COMPANIES
+  <div class="stats">
+    <div class="numbers"> <span> 10k+ </span> <br> COMPANIES</div>
+    <div class="numbers"> <span> 314  </span> <br> TEMPLATES</div>
+    <div class="numbers"> <span> 12m+ </span> <br> QUERIES</div>
   </div>
   
-  <div class="b">
-  <span class="white"> 314</span> <br>TEMPLATES
-  </div>
-
-  <div class="c">
-  <span class="white">12m+</span> <br>QUERIES
   </div>
 
   </div>
 
-     </div>
-
-  </div>
-
-    </div>
-
+<br>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Shekinah Shalom-Hope</a>.
-  </div>
-
   </div>
 </body>
 </html>
