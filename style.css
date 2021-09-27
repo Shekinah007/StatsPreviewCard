@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    width: 1000px;
+    width: 900px;
     background-color: hsl(244, 38%, 16%);
     display: grid;
     /* Change columns to rows for mobile.I think. */
