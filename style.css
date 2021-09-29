@@ -46,12 +46,13 @@ img {
     /* align-self: end; */
     width: 65%;
 }
-.heading {
+h1 {
     color: white;
     font-size: 25px;
     align-self: end;
     /* height: 100px; */
-    margin-top: 30px;
+    /* margin-top: 0px; */
+    margin-bottom: -0px;
 }
 
 .paragraph {
